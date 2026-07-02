@@ -4,8 +4,8 @@
 
 ```
 hello/               ← 在你的 ~/flatpak-projects/hello/
-├── hello.c          ← 源码（小啪提供）
-├── com.example.hello.yml  ← 清单文件（小啪提供）
+├── hello.c          ← 源码（提供）
+├── com.example.hello.yml  ← 清单文件（提供）
 ```
 
 ## 🎯 你要做的
@@ -39,7 +39,7 @@ flatpak-builder --user --install build-dir com.example.hello.yml
 flatpak run com.example.hello
 ```
 
-看到小啪的打招呼就成功了！🎉
+看到打招呼就成功了！🎉
 
 ### Step 5：验证它真的是沙箱里跑的
 
